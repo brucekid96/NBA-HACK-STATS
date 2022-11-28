@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:id="@+id/grp1" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+
+
+    <group android:id="@+id/grp2" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home_2points"
+            android:title="Home 2 Points" />
+        <item
+            android:id="@+id/nav_home_3points"
+            android:title="Home 3 Points" />
+
+        <item
+            android:id="@+id/nav_home_rebounds"
+            android:title="Home Rebounds" />
+        <item
+            android:id="@+id/nav_home_assists"
+            android:title="Home Assists" />
+
+    </group>
+    <group android:id="@+id/grp3" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home_fautes"
+            android:title="Home Fautes" />
+
+        <item
+            android:id="@+id/nav_away_2points"
+            android:title="Away 2 points" />
+        <item
+            android:id="@+id/nav_away_3points"
+            android:title="Away 3 points" />
+        <item
+            android:id="@+id/nav_away_rebounds"
+            android:title="Away Rebounds" />
+    </group>
+    <group android:id="@+id/grp4" android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_away_assists"
+            android:title="Away Assists" />
+        <item
+            android:id="@+id/nav_away_fautes"
+            android:title="Away Fautes" />
+
+        <item
+            android:id="@+id/nav_overall_2points"
+            android:title="Overall 2 Points" />
+        <item
+            android:id="@+id/nav_overall_3points"
+            android:title="Over 3 Points" />
+        <item
+            android:id="@+id/nav_overall_rebounds"
+            android:title="Overall Rebounds" />
+        <item
+            android:id="@+id/nav_overall_assists"
+            android:title="Overall Assists" />
+        <item
+            android:id="@+id/nav_overall_fautes"
+            android:title="Overall Fautes" />
+    </group>
+
+
+
+
+
+
+
+</menu>

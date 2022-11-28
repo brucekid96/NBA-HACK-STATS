@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_search"
+        android:title="search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="Exporter vers Excel"
+        app:showAsAction="never" >
+
+        <menu>
+            <item
+                android:id="@+id/all"
+                android:title="Tous activity"/>
+            <item
+                android:id="@+id/enter"
+                android:title="entree activity"/>
+            <item
+                android:id="@+id/exit"
+                android:title="sortie activity"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/share_list_documents"
+        android:title="share list product"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/list_product"
+        android:title="aide"
+        app:showAsAction="never" />
+
+
+</menu>
