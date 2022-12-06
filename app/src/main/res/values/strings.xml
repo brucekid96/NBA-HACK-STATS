@@ -2,4 +2,17 @@
     <string name="app_name">CrackBasketballStats</string>
     <string name="navigation_drawer_open">open drawer</string>
     <string name="navigation_drawer_close">close drawer</string>
+    <string name="add_team">Add Team</string>
+    <string name="nom">Name</string>
+    <string name="validate">Validate</string>
+    <string name="conference">Conference</string>
+    <string name="add_match">Add Match</string>
+    <string name="home_team">Home Win</string>
+    <string name="away_team">Away Win</string>
+    <string name="win_team">Win Team</string>
+    <string name="assist_team">Assist Win</string>
+    <string name="three_points_team">3pts Win</string>
+    <string name="two_points_team">2pts Win</string>
+    <string name="reb_team">Rebounds Win</string>
+    <string name="faute_team">Faute Win</string>
 </resources>

@@ -3,6 +3,7 @@ package com.crackbasketballstats;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -10,11 +11,21 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+  private CardView mAddTeam;
+  private ImageView mAddTeamIcon;
+
+  private CardView mAddMatch;
+  private ImageView mAddMatchIcon;
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +35,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     Toolbar toolbar = findViewById(R.id.toolbar);
     setSupportActionBar(toolbar);
+
+    mAddTeam=findViewById(R.id.add_team_crd);
+    mAddTeam.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AddTeam.class)));
+    mAddTeamIcon=findViewById(R.id.add_team_icon);
+
+    mAddMatch=findViewById(R.id.add_match_crd);
+    mAddMatch.setOnClickListener(v -> startActivity(new Intent(MainActivity.this, AddMatch.class)));
+    mAddMatchIcon=findViewById(R.id.add_match_icon);
 
 
 
@@ -35,6 +54,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     NavigationView navigationView =
         findViewById(R.id.nav_view);
     navigationView.setNavigationItemSelectedListener(this);
+
+
   }
 
   @Override

@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/rounded_corners.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/add_match.xml" value="0.19375" />
-        <entry key="app/src/main/res/layout/add_team.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/add_team.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/app_bar_add_match.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/app_bar_home.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/content_add_match.xml" value="0.2" />
         <entry key="app/src/main/res/layout/content_home.xml" value="0.19375" />
         <entry key="app/src/main/res/layout/nav_header_home.xml" value="0.19375" />
         <entry key="app/src/main/res/menu/activity_home_drawer.xml" value="0.19375" />
