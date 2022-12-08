@@ -9,6 +9,7 @@ import java.util.List;
 import io.reactivex.Completable;
 import io.reactivex.Maybe;
 import io.reactivex.Observable;
+import io.reactivex.Single;
 
 public class TeamRepository {
 
@@ -20,7 +21,7 @@ public class TeamRepository {
   }
 
 
-  public Observable<List<Team>> getTeams() {
+  public Single<List<Team>> getTeams() {
     return db.teamDao().getTeams();
   }
 

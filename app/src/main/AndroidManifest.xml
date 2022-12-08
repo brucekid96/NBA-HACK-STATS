@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".AddTeam" />
         <activity android:name=".AddMatch" />
+        <activity android:name=".TeamActivity" />
     </application>
 
 </manifest>
